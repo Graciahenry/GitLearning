@@ -1,0 +1,7 @@
+16:10:33.729 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - clicked continue
+16:10:33.812 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - typed password
+16:10:33.894 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - password submitted
+16:10:36.632 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - search content typed
+16:10:39.825 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - searched
+16:10:44.133 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - Department selected
+16:10:47.892 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - Brands selected

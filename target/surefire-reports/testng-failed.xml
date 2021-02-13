@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <listeners>
+    <listener class-name="Selframe.Framework.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Amazon sign in (failed)" parallel="tests">
+    <classes>
+      <class name="Selframe.Framework.Test1">
+        <methods>
+          <include name="browserClose"/>
+          <include name="SignInPage" invocation-numbers="0"/>
+          <include name="BasePageNavigation"/>
+        </methods>
+      </class> <!-- Selframe.Framework.Test1 -->
+    </classes>
+  </test> <!-- Amazon sign in (failed) -->
+</suite> <!-- Failed suite [Suite] -->

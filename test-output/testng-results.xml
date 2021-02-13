@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-12T16:10:22 CST" name="Suite" finished-at="2021-02-12T16:11:05 CST" duration-ms="43830">
+    <groups>
+      <group name="zooo">
+        <method signature="Test1.SignInPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selframe.Framework.Test1@269f4bad]" name="SignInPage" class="Selframe.Framework.Test1"/>
+      </group> <!-- zooo -->
+    </groups>
+    <test started-at="2021-02-12T16:10:22 CST" name="Amazon load test " finished-at="2021-02-12T16:10:22 CST" duration-ms="8">
+    </test> <!-- Amazon load test  -->
+    <test started-at="2021-02-12T16:10:22 CST" name="Amazon element validation " finished-at="2021-02-12T16:10:22 CST" duration-ms="8">
+    </test> <!-- Amazon element validation  -->
+    <test started-at="2021-02-12T16:10:22 CST" name="Amazon sign in " finished-at="2021-02-12T16:11:05 CST" duration-ms="43830">
+      <class name="Selframe.Framework.Test1">
+        <test-method is-config="true" signature="BasePageNavigation(java.lang.String)[pri:0, instance:Selframe.Framework.Test1@269f4bad]" started-at="2021-02-12T16:10:22 CST" name="BasePageNavigation" finished-at="2021-02-12T16:10:32 CST" duration-ms="10520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method signature="SignInPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selframe.Framework.Test1@269f4bad]" started-at="2021-02-12T16:10:32 CST" name="SignInPage" data-provider="getData" finished-at="2021-02-12T16:11:01 CST" duration-ms="29177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[margrac1234@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesus@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dress for baby girl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPage -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Selframe.Framework.Test1@269f4bad]" started-at="2021-02-12T16:11:01 CST" name="browserClose" finished-at="2021-02-12T16:11:05 CST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Selframe.Framework.Test1 -->
+    </test> <!-- Amazon sign in  -->
+  </suite> <!-- Suite -->
+</testng-results>

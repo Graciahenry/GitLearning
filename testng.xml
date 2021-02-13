@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <parameter name="url" value="https://www.amazon.com/"/>
+   <listeners>
+  <listener class-name ="Selframe.Framework.Listeners"/>
+  
+  </listeners> 
+  <groups>
+  <run>
+  <exclude name="zoo"> </exclude>
+  
+  </run>
+  </groups> 
+  <test thread-count="5" name="Amazon sign in ">
+  <classes>
+      <class name="Selframe.Framework.Test1"/>
+      
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Amazon load test ">
+    <classes>
+      <class name="Selframe.Framework.Test2"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Amazon element validation ">
+    <classes>
+      <class name="Selframe.Framework.Test3"/>
+    </classes>
+  </test> <!-- Amazon -->
+</suite> <!-- Suite -->

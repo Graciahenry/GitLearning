@@ -1,0 +1,6 @@
+16:10:49.894 [TestNG-tests-1] INFO  Selframe.Framework.Test1 - search success
+16:10:52.189 [TestNG-tests-1] INFO  Selframe.Framework.Test1 - brands displayed
+16:10:55.147 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - baby dress selected
+16:10:57.455 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - baby dress size selected
+16:11:01.837 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - item added to cart
+16:11:01.840 [TestNG-tests-1] INFO  Selframe.Framework.Test1 - added to cart successfully

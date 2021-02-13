@@ -1,0 +1,7 @@
+16:50:12.069 [TestNG-tests-2] INFO  Selframe.Framework.Test2 - Disability Customer Support
+16:50:13.827 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - typing email id
+16:50:14.596 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - clicked continue
+16:50:14.683 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - typed password
+16:50:14.811 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - password submitted
+16:50:17.680 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - search content typed
+16:50:20.715 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - searched

@@ -1,0 +1,11 @@
+# Created at 2021-02-05T12:37:45.024
+Illegal type at constant pool entry 88 in class Selframe.Framework.Listeners
+Exception Details:
+  Location:
+    Selframe/Framework/Listeners.onStart(Lorg/testng/ITestContext;)V @2: invokespecial
+  Reason:
+    Constant pool index 88 is invalid
+  Bytecode:
+    0000000: 2a2b b700 58b1                         
+
+

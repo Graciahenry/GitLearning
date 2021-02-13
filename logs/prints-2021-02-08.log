@@ -1,0 +1,7 @@
+11:06:32.603 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - search content typed
+11:06:36.370 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - searched
+11:06:41.433 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - Department selected
+11:06:46.981 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - Brands selected
+11:06:48.982 [TestNG-tests-1] INFO  Selframe.Framework.Test1 - search success
+11:06:51.429 [TestNG-tests-1] INFO  Selframe.Framework.Test1 - brands displayed
+11:06:57.599 [TestNG-tests-1] DEBUG Selframe.Framework.Test1 - baby dress selected
